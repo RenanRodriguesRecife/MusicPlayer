@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -14,7 +16,7 @@ body *{
 }
 
 #app * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #app{
@@ -46,6 +48,11 @@ body *{
     object-fit: cover;
 }
 
+#player-1 .info{
+    margin-top:28px;
+
+}
+
 /* player 2 */
 
 #player-2{
@@ -59,6 +66,7 @@ body *{
 .player{
     background-color: #2A2141;
     padding: 28px;
+    border-radius: 10px;
 }
 
 .player h1{
@@ -67,5 +75,16 @@ body *{
 }
 
 .info{
-    
+    color: #E1E1E6;
+    display: grid;
+    gap: 9.6px;
+}
+
+.info h1{
+    font-size: 24px;
+}
+
+.info p{
+    opacity: 0.67;
+    font-size: 19px;
 }
