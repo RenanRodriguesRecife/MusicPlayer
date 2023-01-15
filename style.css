@@ -6,7 +6,7 @@
 
 body {
     background-color: #0F0D13;
-    height: 100vh;
+
 }
 
 #app * {
@@ -27,6 +27,7 @@ body {
 #player-1{
     grid-area: A;
     padding: 50px 38px;
+    /* width: fit-content; */
 }
 
 #player-1 img{
