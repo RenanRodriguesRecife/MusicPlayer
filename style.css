@@ -59,6 +59,7 @@ body *{
 
 #player-2{
     grid-area: B;
+    height: fit-content;
 }
 
 #player-3{
@@ -85,14 +86,20 @@ body *{
     color: #E1E1E6;
 }
 
+.info-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+
 .info{
     color: #E1E1E6;
-    display: grid;
-    gap: 9.6px;
 }
 
 .info h1{
     font-size: 24px;
+    margin-bottom: 9.6px;
 }
 
 .info p{
@@ -104,6 +111,10 @@ body *{
     display: flex;
     justify-content: space-between;
     margin-top: 28px;
+}
+
+.horizontal .controls{
+    padding-inline: 20px;
 }
 
 .track{
